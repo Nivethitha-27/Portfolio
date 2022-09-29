@@ -1,0 +1,18 @@
+/* .card{
+    text-align: center;
+    margin-top: 7%;
+    width:60%;
+    margin-left: 20%;
+} */
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+
+    font-size: 18px;
+}
+.card-title{
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+

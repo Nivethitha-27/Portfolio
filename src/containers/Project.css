@@ -1,0 +1,27 @@
+/* .btn{
+background-color:rgb(249, 171, 213);
+color: darkblue;
+
+} */
+
+@media screen and (max-width:990px) {
+    .project {
+        grid-template-columns: 1fr;
+        width: 29px;
+        height: 5px;
+        margin-left: 0%;
+     }
+     .card {
+width:20%;
+ }
+ 
+}
+
+@media screen and (max-width:650px) {
+    .project{
+        grid-template-columns: 1fr;
+
+    }
+   
+
+}

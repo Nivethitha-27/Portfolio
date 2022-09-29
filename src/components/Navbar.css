@@ -1,0 +1,40 @@
+.nav-item {
+    padding-left: 30px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right,
+            rgb(22, 8, 127),
+            rgb(215, 35, 164));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: rgb(20, 120, 4);
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.nav-link {
+    padding: 25px 5px;
+    transition: 0.2s
+}
+
+.heading {
+    background: linear-gradient(to right,
+            rgb(22, 8, 127),
+            rgb(221, 29, 135));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

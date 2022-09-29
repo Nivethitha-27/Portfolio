@@ -1,0 +1,83 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(203, 23, 119);
+
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+.card1:hover {
+    transform: scale(1.04);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.card2:hover:hover {
+    transform: scale(1.04);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@media screen and (max-width:990px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .card1 {
+        margin-left: 34%;
+    }
+
+    .card2 {
+        margin-left: 34%;
+        margin-bottom: 15%;
+    }
+
+    .mail {
+        width: 271px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .card1 {
+        margin-left: 24%;
+    }
+
+    .card2 {
+        margin-left: 24%;
+    }
+
+    .mail {
+        width: 79%
+    }
+
+    .form {
+        width: 229px;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width:500px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+.form{
+    width:560px;
+    height: 500px;
+    margin-left: 5px;
+
+}
+.card{
+    width: 5px;
+    height: 364px;
+    margin-left: 5px;
+
+}
+}
+
