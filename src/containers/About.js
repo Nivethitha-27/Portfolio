@@ -14,7 +14,7 @@ function About() {
           marginLeft: "20%",
           border: "0",
           boxShadow: "5px 5px 10px pink",
-          
+
         }}
         >
           <div className="row g-0">
@@ -25,7 +25,7 @@ function About() {
               <div className="card-body">
                 <h3 className="card-title"><i>I Completed my engineering in Electrical Department</i></h3><br />
                 <span className="card-text">
-                  <ul><li> I’m super passionate about design and webdevelopment</li>
+                  <ul>
                     <li>Dedicated to creating and optimizing interactive, user-friendly and feature-rich web applications</li>
                     <li>  Exposure to Front-end & Back-end web development, UI/UX design.</li>
                     <li>New and open source web technologies  make me super excited and I can’t wait to see what is to come of the web in the next few years.</li>
