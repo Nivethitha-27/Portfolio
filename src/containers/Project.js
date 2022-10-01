@@ -19,7 +19,7 @@ function Project() {
           }}>
           <img src="./images/Screenshot (315).png" className="card-img-top" alt="..." height="400" />
           <div className="card-body">
-            <h5 className='card-title'>Train Express</h5>
+            <h5 className='card-title'><i>Train Express</i></h5>
             <span className="card-text">
               This a web application in which user can search trains and get the trains with its routes and also they can book
               their trains.

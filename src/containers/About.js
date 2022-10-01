@@ -13,7 +13,8 @@ function About() {
           width: "60%",
           marginLeft: "20%",
           border: "0",
-          boxShadow: "5px 5px 10px pink"
+          boxShadow: "5px 5px 10px pink",
+          
         }}
         >
           <div className="row g-0">
@@ -22,7 +23,7 @@ function About() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h3 className="card-title">I Completed my engineering in Electrical Department</h3><br />
+                <h3 className="card-title"><i>I Completed my engineering in Electrical Department</i></h3><br />
                 <span className="card-text">
                   <ul><li> I’m super passionate about design and webdevelopment</li>
                     <li>Dedicated to creating and optimizing interactive, user-friendly and feature-rich web applications</li>

@@ -13,9 +13,10 @@ function Navbar() {
                                 style={{
                                     float: "left",
                                     marginLeft: "7%",
-                                    marginTop: "7%",
+                                    marginTop: "6%",
                                     textDecoration: 'none',
                                     fontWeight: "bold",
+                                    fontSize: "30px"
                                 }}>
                                 <Link to="/"> Nivethitha</Link>
                             </h3>
@@ -42,7 +43,6 @@ function Navbar() {
                                     <Link to="/"> Home</Link> </li>
                                 <li className="nav-item">
                                     <Link to="/about">About</Link> </li>
-
                                 <li className="nav-item">
                                     <Link to="/skills">Skills</Link> </li>
                                 <li className="nav-item">

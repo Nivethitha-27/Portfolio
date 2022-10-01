@@ -1,8 +1,8 @@
-/* .btn{
-background-color:rgb(249, 171, 213);
-color: darkblue;
-
-} */
+.project:hover{
+    transform: scale(0.98);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
 
 @media screen and (max-width:990px) {
     .project {
@@ -10,18 +10,16 @@ color: darkblue;
         width: 29px;
         height: 5px;
         margin-left: 0%;
-     }
-     .card {
-width:20%;
- }
- 
+    }
+
+    .card {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width:650px) {
-    .project{
+    .project {
         grid-template-columns: 1fr;
 
     }
-   
-
 }

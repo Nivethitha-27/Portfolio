@@ -15,14 +15,14 @@ function Home() {
         </div>
         <br />
         <div className='info'>
-          <h3 style={{ fontSize: "27px", color: "darkblue" }}>Hi! I'm <b>Nivethitha</b></h3>
+          <h3 style={{ fontSize: "27px", color: "darkblue" }}>Hi! I'm <b><i>Nivethitha</i></b></h3>
           <span style={{ fontSize: "20px" }}><i>Welcome to my digital corner where you can find my works.</i>
             <br />I'm a engineering graduate
             <br />
             I’m super passionate about designing and webdevelopment.
             <br />
             <span>You can check My Resume here</span><br /><br />
-            < a href="./images/resume final.pdf" target="_blank">
+            < a href="./images/Nivethitha.pdf" target="_blank">
               <button className='btn btn-danger'
                 style={{
                   borderRadius: "20px"

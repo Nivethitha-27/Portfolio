@@ -2,7 +2,6 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(203, 23, 119);
-
 }
 
 label {
@@ -41,43 +40,14 @@ label {
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:596px) {
     .contact {
         grid-template-columns: 1fr;
     }
 
-    .card1 {
-        margin-left: 24%;
-    }
+    form {
+        width: 500px;
 
-    .card2 {
-        margin-left: 24%;
     }
-
-    .mail {
-        width: 79%
-    }
-
-    .form {
-        width: 229px;
-        margin-left: 15%;
-    }
-}
-@media screen and (max-width:500px) {
-    .contact {
-        grid-template-columns: 1fr;
-    }
-.form{
-    width:560px;
-    height: 500px;
-    margin-left: 5px;
 
 }
-.card{
-    width: 5px;
-    height: 364px;
-    margin-left: 5px;
-
-}
-}
-

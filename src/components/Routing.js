@@ -12,6 +12,7 @@ function Routing() {
   return (
     <Routes>
        <Route path="/" element={<Home/>}Exact/>
+       <Route path="/home" element={<Home/>}/>
        <Route path="/about" element={<About/>}/>
        <Route path="/skills" element={<Skills/>}/>
        <Route path='/project' element={<Project/>}/>

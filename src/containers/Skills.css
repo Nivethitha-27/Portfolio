@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -14,6 +14,7 @@
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
+
 }
 
 .header:after {
@@ -29,7 +30,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -72,7 +73,6 @@
     height: 4px;
     border-radius: 0 2px 2px 0;
     transition: 5s;
-
 }
 
 .img {
