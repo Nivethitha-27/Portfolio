@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import './Project.css'
 
-function Project() {
+function Project({ themeToggler }) {
   return (
     <>
-      <Navbar />
+      <Navbar themeToggler={themeToggler} />
       <div className='project'>
         <div className="card mb-3"
           style={{
@@ -20,7 +19,7 @@ function Project() {
           <img src="./images/Screenshot (315).png" className="card-img-top" alt="..." height="400" />
           <div className="card-body">
             <h5 className='card-title'><i>Train Express</i></h5>
-            <span className="card-text">
+            <span className="card-text" style={{ color: "black" }}>
               This a web application in which user can search trains and get the trains with its routes and also they can book
               their trains.
               <i>You can find both user and admin module here</i></span>

@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from "../components/Navbar"
 import './Skills.css';
 
-function Skills() {
+function Skills({themeToggler}) {
   return (
     <>
-      <Navbar />
+      <Navbar themeToggler={themeToggler} />
       <div className='inner'>
         <div className='header'>
           <h3 color='darkblue'

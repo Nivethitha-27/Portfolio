@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import './About.css'
 
-function About() {
+function About({ themeToggler}) {
   return (
     <>
-      <Navbar />
+      <Navbar themeToggler={themeToggler} />
       <div className='box'>
         <div className="card mb-3" style={{
           textAlign: "center",
@@ -17,15 +17,17 @@ function About() {
 
         }}
         >
+          
           <div className="row g-0">
             <div className="col-md-4">
               <img src="./images/elegant-business-woman-portrait-vector-24508305.jpg" className="img-fluid rounded-start" alt="..." style={{ height: "440px" }} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h3 className="card-title"><i>I Completed my engineering in Electrical Department</i></h3><br />
+                <h3 className="card-title">
+                  <i>I Completed my engineering in Electrical Department</i></h3><br />
                 <span className="card-text">
-                  <ul>
+                  <ul className='list'>
                     <li>Dedicated to creating and optimizing interactive, user-friendly and feature-rich web applications</li>
                     <li>  Exposure to Front-end & Back-end web development, UI/UX design.</li>
                     <li>New and open source web technologies  make me super excited and I can’t wait to see what is to come of the web in the next few years.</li>

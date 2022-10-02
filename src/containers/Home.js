@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import './Home.css'
-function Home() {
+function Home({ themeToggler }) {
   return (
     <>
-      <Navbar />
+      <Navbar themeToggler={themeToggler} />
+
       <div className='home'>
         <div className='about'>
           <img className="image" src='./images/full-stack-development.gif'
@@ -21,7 +22,7 @@ function Home() {
             <br />
             I’m super passionate about designing and webdevelopment.
             <br />
-            <span>You can check My Resume here</span><br /><br />
+            <span style={{ fontSize: "20px" }}>You can check My Resume here</span><br /><br />
             < a href="./images/Nivethitha.pdf" target="_blank">
               <button className='btn btn-danger'
                 style={{

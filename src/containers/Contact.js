@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 import './Contact.css';
 
 
-function Contact() {
+function Contact({themeToggler}) {
   const form = useRef();
   const navigate = useNavigate(); const sendEmail = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ function Contact() {
   };
   return (
     <>
-      <Navbar />
+      <Navbar themeToggler={themeToggler}  />
       <div className='contact'>
         {/* linkedin */}
         <div className='content-box' style={{ float: "left", marginTop: "9%", marginLeft: "-5%" }}>

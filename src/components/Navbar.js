@@ -1,8 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { BsSunFill } from "react-icons/bs";
+import { MdOutlineDarkMode } from "react-icons/md";
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({ themeToggler }) {
+    const [show, setShow] = useState(false)
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark  ">
@@ -40,6 +44,17 @@ function Navbar() {
                             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 "
                                 style={{ fontSize: "20px", color: "white" }}>
                                 <li className="nav-item">
+                                    {show ? (
+                                        <button className="btn border-0" onClick={() => themeToggler()}>
+                                            <BsSunFill />
+                                        </button>
+                                    ) : (
+                                        <button className='btn border-0' onClick={() => themeToggler()}>
+                                            <MdOutlineDarkMode />
+                                        </button>
+                                    )}
+                                </li>
+                                <li className="nav-item">
                                     <Link to="/"> Home</Link> </li>
                                 <li className="nav-item">
                                     <Link to="/about">About</Link> </li>
@@ -49,25 +64,14 @@ function Navbar() {
                                     <Link to="/project">Project</Link></li>
                                 <li className="nav-item">
                                     <Link to="/contact">Contact</Link></li>
-                                <li className="nav-item">
-                                    <button type="button" class="btn btn-light  color-pink position-relative">
-                                        <span
-                                            class="iconify"
-                                            data-icon="bi:cart-plus"
-                                            data-width="20"
-                                            color="green"
-                                        ></span>
-                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
 
-                                        </span>
-                                    </button>
 
-                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
+
 
         </>
     )
