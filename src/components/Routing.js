@@ -9,6 +9,7 @@ import Contact from '../containers/Contact';
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, GlobalStyles, lightTheme } from '../themes';
 
+
 const StyledApp = styled.div`
 color: ${(props) => props.theme.fontColor};
 `;

@@ -28,24 +28,27 @@ function Project({ themeToggler }) {
                 <button className='btn btn-sm btn-success'
                   style={{ borderRadius: "15px" }}
                 >Demo</button></a>
-              <button className='btn btn-sm'
-                style={{
-                  fontSize: "15px",
-                  color: "black",
-                  borderRadius: "25px",
-                  fontFamily: "bold",
-                  color: "darkblue"
-                }} >React.js</button>
+              <a href="https://github.com/Nivethitha-27/Trainexpress-React" target="_blank">
+                <button className='btn btn-sm'
+                  style={{
+                    fontSize: "15px",
+                    color: "black",
+                    borderRadius: "25px",
+                    fontFamily: "bold",
+                    color: "darkblue"
+                  }} >React.js
 
-              <button className='btn btn-sm'
-                style={{
-                  backgroundColor: "",
-                  fontSize: "15px",
-                  color: "black",
-                  borderRadius: "25px",
-                  fontFamily: "bold",
-                  color: "darkblue"
-                }} >Node.js</button>
+                </button></a>
+              <a href="https://github.com/Nivethitha-27/Trainexpress-Node" target="_blank">
+                <button className='btn btn-sm'
+                  style={{
+                    backgroundColor: "",
+                    fontSize: "15px",
+                    color: "black",
+                    borderRadius: "25px",
+                    fontFamily: "bold",
+                    color: "darkblue"
+                  }} >Node.js</button></a>
             </div>
           </div>
         </div>

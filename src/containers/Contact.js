@@ -65,14 +65,14 @@ function Contact({themeToggler}) {
               boxShadow: "5px 5px 5px grey"
             }}>
             <div class="card-body">
-              <a href="https://twitter.com/NiveThilipan" target="_blank"
+              <a href="https://github.com/Nivethitha-27" target="_blank"
                 style={{
                   textDecoration: "none"
                 }}>
-                <img src='./images/images (3).png' height="80" width="100"
+                <img src='./images/GitHub-Mark.png' height="90" width="100"
                   style={{ marginLeft: "27%" }} /><br /><br />
                 <p class="card-text"
-                  style={{ textAlign: "center" }}><i>NiveThilipan</i>
+                  style={{ textAlign: "center" }}><i>Nivethitha-27</i>
                 </p></a>
             </div>
           </div>
@@ -115,8 +115,8 @@ function Contact({themeToggler}) {
             <input type="email" name="user_email" placeholder="Your Email" style={{ marginLeft: "8%", width: "80%", paddingLeft: "4%" }} /><br /><br />
             <label>Message</label>
             <textarea name="message" rows="3" style={{ marginLeft: "3%", width: "80%", paddingLeft: "4%" }} placeholder="Give a Message" /><br />
-            <input type="submit" value="Send" className='btn btn-success btn-md'
-              style={{ marginLeft: "45%", marginTop: "5%", borderRadius: "13px" }} />
+            <input type="submit" value="Send" className='btn btn-primary btn-md'
+              style={{ marginLeft: "45%", marginTop: "5%", borderRadius: "15px" }} />
           </form>
         </div>
       </div>
